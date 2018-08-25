@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="primary_color">#0091EA</color>
+
+    <color name="primary_dark_color">#01579B</color>
+
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="category">#81D4FA</color>
+</resources>

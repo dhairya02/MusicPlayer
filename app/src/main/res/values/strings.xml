@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+
+    <string name="category_nowPlaying">Now Playing</string>
+
+    <string name="category_Stream">Stream</string>
+
+    <string name="category_artist">Artist</string>
+
+    <string name="category_album">Albums</string>
+
+    <string name="category_playlist">Playlist</string>
+
+    <string name="category_genre">Genre</string>
+
+    <string name="category_songs">Songs</string>
+</resources>
