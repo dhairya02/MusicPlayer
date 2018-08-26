@@ -31,10 +31,10 @@ public class ListAdapter extends ArrayAdapter<List>{
         List currentList = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.text_view);
+        TextView musicTextView = (TextView) listItemView.findViewById(R.id.text_view);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
-        miwokTextView.setText(currentList.getTitle());
+        musicTextView.setText(currentList.getTitle());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);

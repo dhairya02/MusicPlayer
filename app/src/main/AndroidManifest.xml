@@ -18,22 +18,32 @@
         </activity>
         <activity
             android:name=".AlbumsActivity"
-            android:label="@string/category_album" />
+            android:label="@string/category_album"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ArtistActivity"
-            android:label="@string/category_artist" />
+            android:label="@string/category_artist"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".GenreActivity"
-            android:label="@string/category_genre" />
+            android:label="@string/category_genre"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".PlaylistActivity"
-            android:label="@string/category_playlist" />
-        <activity android:name=".SongsActivity"
-            android:label="@string/category_songs"/>
-        <activity android:name=".NowplayingActivity"
-            android:label="@string/category_nowPlaying"/>
-        <activity android:name=".StreamActivity"
-            android:label="@string/category_Stream"/>
+            android:label="@string/category_playlist"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".SongsActivity"
+            android:label="@string/category_songs"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".NowplayingActivity"
+            android:label="@string/category_nowPlaying"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".StreamActivity"
+            android:label="@string/category_Stream"
+            android:parentActivityName=".MainActivity"/>
 
     </application>
 
